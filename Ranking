@@ -1,0 +1,9 @@
+# Lendo os valores de entrada
+codigo_peca1, num_peca1, valor_unitario_peca1 = map(float, input().split())
+codigo_peca2, num_peca2, valor_unitario_peca2 = map(float, input().split())
+
+# Calculando o valor total a ser pago
+total_a_pagar = (num_peca1 * valor_unitario_peca1) + (num_peca2 * valor_unitario_peca2)
+
+# Imprimindo o resultado formatado
+print(f"VALOR A PAGAR: R$ {total_a_pagar:.2f}")
